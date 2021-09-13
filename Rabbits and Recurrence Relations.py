@@ -9,5 +9,3 @@ with open('datasets/rosalind_fib.txt') as f:
     n, k = f.readline().split()
     res = fib(int(n), int(k))
     print(res)
-
-    f.close()

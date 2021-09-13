@@ -14,5 +14,3 @@ with open('datasets/rosalind_gc.txt') as f:
             max_gc_id, max_gc = seq_id, seq_gc
 
     print('%s\n%f' % (max_gc_id, max_gc * 100))
-
-    f.close()

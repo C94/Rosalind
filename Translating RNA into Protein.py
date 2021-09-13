@@ -29,5 +29,3 @@ with open('datasets/rosalind_prot.txt') as f:
         buf += val
 
     print(buf)
-
-    f.close()

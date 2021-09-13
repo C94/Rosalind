@@ -10,5 +10,3 @@ with open('datasets/rosalind_iprb.txt') as f:
 
     rec_prob = rr + hh * 0.25 + hr * 0.5
     print (1 - rec_prob)
-
-    f.close()
